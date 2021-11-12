@@ -15,6 +15,7 @@ public class Application {
 	String[][] data = GenericMethods.getData("C:\\Users\\neera\\Full Testing\\Selinium\\Testdata.xlsx", "Sheet2");
 	Methods mtd = new Methods();
 	
+	//Making changes after R1.1
 	for(int i=1;i<data.length;i++)
 	{
 		switch(data[i][3])
